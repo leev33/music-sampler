@@ -1,16 +1,10 @@
 $(document).ready(function() {
 
-
-  function hideAll() {
-    $('#fourcover').hide();
+  function hideAll() {    $('#fourcover').hide();
     $('#madeintheamcover').hide();
     $('#midnightmemoriescover').hide();
     $('#takemehomecover').hide();
-  }
-
-
-  hideAll();
-
+  }  hideAll();
 
   $('.albumCover').click(function() {
 
@@ -20,17 +14,17 @@ $(document).ready(function() {
 
     switch ($(this).attr("id")) {
       case "four":
-        $('#fourcover').show();
-        break;
+          $('#fourcover').show();
+          break;
       case "madeintheam":
-        $('#madeintheamcover').show();
-        break;
+          $('#madeintheamcover').show();
+          break;
       case "midnightmemories":
-        $('#midnightmemoriescover').show();
-        break;
+          $('#midnightmemoriescover').show();
+          break;
       case "takemehome":
-        $('#takemehomecover').show();
-        break;
+          $('#takemehomecover').show();
+          break;
     }
   });
 
